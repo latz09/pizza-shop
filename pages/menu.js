@@ -1,4 +1,4 @@
-import Custom from '../components/menu/Custom';
+import Custom from '../components/menu/buildYourOwn/Custom';
 import MenuHeading from '../components/utils/MenuHeading';
 
 const MenuPage = () => {

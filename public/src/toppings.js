@@ -1,4 +1,4 @@
-export const toppings = [
+export const allToppings = [
 	'Sausage',
 	'Pepperoni',
 	'Mushrooms',
