@@ -3,10 +3,13 @@ import NavLink from '../components/utils/NavLink';
 
 const Home = () => {
 	return (
-		<div className='h-screen bg-gradient-to-br from-[#E4E0DD] to-[#EBEBEB] mt-7 md:mt-20'>
-			<div className='grid gap-8 justify-items-center'>
+		<div className='bg-gradient-to-br h-screen from-[#E4E0DD] to-[#EBEBEB] flex justify-center items-center'>
+			<div className='grid gap-8 justify-items-center lg:flex justify-evenly items-center content-center  mx-auto mb-28'>
 				<Hero />
-				<NavLink href={'/menu'} title={'Menu'} style={'btn-menu'} />
+				<div>
+					<NavLink href={'/menu'} title={'Menu'} style={'btn-menu'} />
+					<div className="text-center">Hours</div>
+				</div>
 			</div>
 		</div>
 	);
