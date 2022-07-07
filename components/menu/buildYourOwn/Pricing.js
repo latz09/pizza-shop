@@ -9,27 +9,27 @@ const Pricing = () => {
 			</tr>
             <tr>
                 <td>Cheese Only</td>
-                <td>$10.00</td>
-                <td>$12.00</td>
-                <td>$14.00</td>
+                <td>$10</td>
+                <td>$12</td>
+                <td>$14</td>
             </tr>
             <tr>
-                <td>Cheese Only</td>
-                <td>$10.00</td>
-                <td>$12.00</td>
-                <td>$14.00</td>
+                <td>1-2 toppings</td>
+                <td>$11</td>
+                <td>$14</td>
+                <td>$16</td>
             </tr>
             <tr>
-                <td>Cheese Only</td>
-                <td>$10.00</td>
-                <td>$12.00</td>
-                <td>$14.00</td>
+                <td>3-4 toppings</td>
+                <td>$14</td>
+                <td>$16</td>
+                <td>$18</td>
             </tr>
             <tr>
-                <td>Cheese Only</td>
-                <td>$10.00</td>
-                <td>$12.00</td>
-                <td>$14.00</td>
+                <td>5-6 toppings</td>
+                <td>$16</td>
+                <td>$18</td>
+                <td>$20</td>
             </tr>
 		</table>
 	);
