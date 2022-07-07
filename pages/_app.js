@@ -1,7 +1,14 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import Layout from '../components/layout/Layout';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+	return (
+		<div className='font-base'>
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+		</div>
+	);
 }
 
-export default MyApp
+export default MyApp;
