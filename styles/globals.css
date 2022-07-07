@@ -3,7 +3,7 @@
 
 html,
 body {
-	background-color: #fff0f5;
+	background-color: #E4E0DD;
 }
 
 @tailwind base;
@@ -11,3 +11,8 @@ body {
 @tailwind utilities;
 
 
+@layer components {
+	.btn-menu {
+		@apply px-20 py-3 bg-pizzaRed-300 text-gray-100 text-2xl font-semibold tracking-wider rounded shadow-md hover:bg-pizzaRed-500 hover:text-white 
+	}
+}
