@@ -1,10 +1,12 @@
+import MenuHeading from '../../utils/MenuHeading';
 import Burger from './Burger';
 import PizzaSandwich from './PizzaSandwich';
 
 const Sandwiches = () => {
 	return (
 		<>
-            <Burger />
+			<MenuHeading title={'Sandwich & Burger'} />
+			<Burger />
 			<PizzaSandwich />
 		</>
 	);

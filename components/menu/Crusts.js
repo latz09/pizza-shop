@@ -1,17 +1,19 @@
 const Crusts = ({ small, medium, large }) => {
 	return (
-		<table className='text-sm sm:text-xl'>
-			<tr>
-				<th>Small</th>
-				<th>Medium</th>
-				<th>Large</th>
-			</tr>
-			<tr className="text-pizzaRed-600">
-				<td>{small}</td>
-				<td>{medium}</td>
-				<td>{large}</td>
-			</tr>
-		</table>
+		<div className='text-sm sm:text-xl flex space-x-7 justify-center'>
+			<div className='grid'>
+				<span className='font-bold'>Small</span>
+				<span className='text-pizzaRed-600'>{small}</span>
+			</div>
+			<div className='grid'>
+				<span className='font-bold'>Medium</span>
+				<span className='text-pizzaRed-600'>{medium}</span>
+			</div>
+			<div className='grid'>
+				<span className='font-bold'>Large</span>
+				<span className='text-pizzaRed-600'>{large}</span>
+			</div>
+		</div>
 	);
 };
 

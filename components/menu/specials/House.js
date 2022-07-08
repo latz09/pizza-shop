@@ -1,16 +1,18 @@
 import { houseToppings } from '../../../public/src/toppings';
 import SpecialHeading from '../../utils/SpecialHeading';
 import Crusts from '../Crusts';
-import ToppingsList from '../ToppingsList';
+import SpecialToppingList from './SpecialToppingList';
 
 const House = () => {
 	return (
 		<>
 			<SpecialHeading title={'HOUSE'} />
-			<ToppingsList toppings={houseToppings} />
 			<Crusts small={'$13'} medium={'$15'} large={'$19'} />
+			<SpecialToppingList toppings={houseToppings} />
 		</>
 	);
 };
 
 export default House;
+
+//make a specials toppings components that maps through, different styling
