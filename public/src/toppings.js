@@ -18,3 +18,28 @@ export const allToppings = [
 	'Hot-Pepper-Rings',
 	'Beef-Canadian-Bacon',
 ];
+
+export const superToppings = [
+	'Sausage',
+	'Pepperoni',
+	'Mushrooms',
+	'Onions',
+	'Green Peppers',
+	'Green Olives',
+	'Black Olives',
+];
+
+export const houseToppings = [
+	'Sausage',
+	'Pepperoni',
+	'Mushrooms',
+	'Onions',
+	'Green Peppers',
+];
+
+export const vegiToppings = [
+	'Mushrooms',
+	'Onions',
+	'Green Peppers',
+	'Black Olives',
+];

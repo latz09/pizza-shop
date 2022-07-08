@@ -6,7 +6,7 @@ const Crusts = ({ small, medium, large }) => {
 				<th>Medium</th>
 				<th>Large</th>
 			</tr>
-			<tr>
+			<tr className="text-pizzaRed-600">
 				<td>{small}</td>
 				<td>{medium}</td>
 				<td>{large}</td>

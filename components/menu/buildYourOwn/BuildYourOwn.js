@@ -4,9 +4,9 @@ import Crusts from '../Crusts';
 import ToppingsList from '../ToppingsList';
 import Pricing from './Pricing';
 
-const Custom = () => {
+const BuildYourOwn = () => {
 	return (
-		<div className='text-pizzaRed-600 grid gap-4 sm:mt-7'>
+		<div className='grid gap-4 sm:mt-7'>
 			<MenuSection title={'Toppings'} />
 			<ToppingsList toppings={allToppings} />
 			<MenuSection title={'Crust'} />
@@ -17,4 +17,4 @@ const Custom = () => {
 	);
 };
 
-export default Custom;
+export default BuildYourOwn;
