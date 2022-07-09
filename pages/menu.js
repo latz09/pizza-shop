@@ -7,23 +7,20 @@ import { useState } from 'react';
 import MenuToggle from '../components/utils/MenuToggle';
 
 const MenuPage = () => {
+	const [menuCategory, setMenuCategory] = useState(1);
 
 	return (
 		<div className='pb-12  bg-gray-50 min-h-screen'>
-		
 			<div className='md:pt-14 grid justify-evenly text-center sm:gap-4'>
-			<MenuToggle />
+				<MenuToggle
+					menuCategory={menuCategory}
+					setMenuCategory={setMenuCategory}
+				/>
 				<div>
-					<BuildYourOwn />
-				</div>
-				<div>
-					<PizzaFries />
-				</div>
-				<div>
-					<Sandwiches />
-				</div>
-				<div>
-					<AllSpecials />
+					{menuCategory === 1 && <BuildYourOwn />}
+					{menuCategory === 2 && <PizzaFries />}
+					{menuCategory === 3 && <AllSpecials />}
+					{menuCategory === 4 && <Sandwiches />}
 				</div>
 			</div>
 		</div>

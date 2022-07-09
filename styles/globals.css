@@ -16,15 +16,18 @@ body {
 		@apply px-10 py-1 sm:px-20 sm:py-3 bg-pizzaRed-300 text-gray-100 md:text-2xl font-semibold tracking-wider rounded shadow-md hover:bg-pizzaRed-500 hover:text-white 
 	}
 	.btn-menu-nav {
-		@apply border border-pizzaRed-300 border-opacity-70 font-bold text-pizzaRed-500 px-4 py-2 text-xl rounded-full hover:scale-125 hover:border-pizzaRed-300 hover:bg-pizzaRed-400 hover:text-gray-50
+		@apply border border-pizzaRed-300 border-opacity-40 font-bold text-pizzaRed-500 p-2 sm:px-4 sm:py-2 text-xs sm:text-base md:text-lg lg:text-xl rounded-full 
+	}
+	.btn-menu-focused {
+		@apply md:scale-105 border-pizzaRed-300 bg-pizzaRed-400 text-white transition duration-1000 font-normal
 	}
 	.menu-section-heading {
-		@apply text-pizzaRed-600 tracking-wider text-4xl sm:text-5xl border-b border-pizzaRed-300 p-2 sm:p-6
+		@apply text-pizzaRed-600 tracking-wider text-4xl sm:text-5xl sm:p-2 
 	}
 	.card {
-		@apply bg-gray-50 mx-4 py-4 shadow
+		@apply bg-gray-50 py-4 
 	}
 	.card-special {
-		@apply  hover:scale-110 sm:hover:scale-105 transition duration-500
+		@apply sm:hover:scale-105 transition duration-500 md:border-r border-pizzaRed-500 hover:gap-6
 	}
 }

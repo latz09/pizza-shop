@@ -1,6 +1,6 @@
 const ToppingItem = ({ item }) => {
 	return (
-		<li className='font-bold py-2 px-2 '>
+		<li className='font-bold'>
 			{item}
 		</li>
 	);
