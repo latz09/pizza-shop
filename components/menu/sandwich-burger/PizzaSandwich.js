@@ -3,8 +3,8 @@ import MenuSection from '../../utils/MenuSection';
 const PizzaSandwich = () => {
 	return (
 		<>
-			<MenuSection title={'Pizza Sandwich'} />
-            <span className="text-pizzaRed-600">$7</span>
+			
+            <span className="text-pizzaRed-600 text-4xl">$7</span>
 		</>
 	);
 };

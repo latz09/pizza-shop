@@ -4,7 +4,7 @@ import Crusts from '../Crusts';
 const Burger = () => {
 	return (
 		<>
-			<MenuSection title={'Cheese Burger'} />
+			
 			<ul className='flex space-x-3 justify-center text-pizzaRed-600 mb-4'>
 				<li>Beef</li>
 				<li>Onions</li>

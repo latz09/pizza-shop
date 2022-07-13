@@ -10,13 +10,15 @@ const MenuPage = () => {
 	const [menuCategory, setMenuCategory] = useState(1);
 
 	return (
-		<div className='pb-12  bg-gray-50 min-h-screen'>
+		<div className='pb-8 bg-gray-50 min-h-screen'>
 			<div className='md:pt-14 grid justify-evenly text-center sm:gap-4'>
-				<MenuToggle
-					menuCategory={menuCategory}
-					setMenuCategory={setMenuCategory}
-				/>
-				<div>
+				<div className="pb-2">
+					<MenuToggle
+						menuCategory={menuCategory}
+						setMenuCategory={setMenuCategory}
+					/>
+				</div>
+				<div >
 					{menuCategory === 1 && <BuildYourOwn />}
 					{menuCategory === 2 && <PizzaFries />}
 					{menuCategory === 3 && <AllSpecials />}

@@ -4,11 +4,16 @@ import PizzaSandwich from './PizzaSandwich';
 
 const Sandwiches = () => {
 	return (
-		<>
-			<MenuHeading title={'Sandwich & Burger'} />
-			<Burger />
-			<PizzaSandwich />
-		</>
+		<div className="grid gap-12  md:flex md:justify-between md:items-center mt-8">
+			<div>
+				<MenuHeading title={'Cheese Burger'} />
+				<Burger />
+			</div>
+			<div>
+				<MenuHeading title={'Pizza Sandwich'} />
+				<PizzaSandwich />
+			</div>
+		</div>
 	);
 };
 
