@@ -11,6 +11,7 @@ const Hero = () => {
 				layout='intrinsic'
 				height={500}
 				width={700}
+				priority='true'
 			/>
 			
 		</div>
