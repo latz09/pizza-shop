@@ -3,7 +3,7 @@ import logo from '../../public/images/logo_with_number.jpg';
 
 const Hero = () => {
 	return (
-		<div className="bg-pizzaRed-500 py-1 md:p-5 md:rounded-full md:border-2 border-black ">
+		<div className="bg-pizzaRed-500 py-1 md:p-5 md:rounded-full md:border border-black ">
 			
 			<Image
 				src={logo}
