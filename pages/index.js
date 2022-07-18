@@ -5,7 +5,7 @@ import NavLink from '../components/utils/NavLink';
 const Home = () => {
 	return (
 //bg-[#EEEBEC]
-		<div className='grid min-h-screen bg-gray-100 '>
+		<div className='grid h-screen bg-gray-100 '>
 			<div className='grid content-center  md:grid-cols-3 gap-8 md:justify-items-center md:items-center '>
 				<div className='md:col-span-2'>
 					<Hero />
