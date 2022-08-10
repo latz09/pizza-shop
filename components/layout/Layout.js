@@ -3,13 +3,15 @@ import Navbar from './Navbar';
 
 const Layout = ({ children }) => {
 	return (
-		<>
+		<div className="flex flex-col h-screen">
 			<div className='sticky top-0 z-50'>
 				<Navbar />
 			</div>
-			<main>{children}</main>
-			<Footer />
-		</>
+			<main className="flex-grow">{children}</main>
+			<div>
+				<Footer />
+			</div>
+		</div>
 	);
 };
 
