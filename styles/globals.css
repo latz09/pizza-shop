@@ -19,7 +19,7 @@
 		@apply scale-110 md:scale-125 border-pizzaRed-300 bg-pizzaRed-400 text-white transition duration-1000 md:font-normal font-bold
 	}
 	.menu-section-heading {
-		@apply text-pizzaRed-600 tracking-wider text-4xl sm:text-5xl sm:p-2 
+		@apply text-pizzaRed-500 tracking-wider text-4xl sm:text-5xl sm:p-2 
 	}
 	.card {
 		@apply bg-gray-50 py-4 

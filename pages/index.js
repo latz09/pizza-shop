@@ -13,6 +13,9 @@ const Home = () => {
 			<div>
 				<About />
 			</div>
+			<div className="">
+				<HoursLocation />
+			</div>
 			
 		</div>
 	);
