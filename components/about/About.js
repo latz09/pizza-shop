@@ -5,11 +5,11 @@ import MenuHeading from '../utils/MenuHeading';
 const About = () => {
 	return (
 		<>
-			<div className="text-center">
+			<div className="text-center mt-4">
 				<MenuHeading title={'About us!'} />{' '}
 			</div>
 			<div className='max-w-7xl mx-auto grid gap-3 md:grid-cols-2 md:place-items-end justify-items-center'>
-				<h1 className=' text-gray-600 tracking-wide md:text-xl  self-center px-5 text-center md:text-justify'>
+				<h1 className=' text-gray-600 tracking-wide md:text-xl  self-center px-5 text-center md:text-justify py-8'>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis eu
 					non diam phasellus. Et netus et malesuada fames ac turpis egestas.

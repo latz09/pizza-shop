@@ -1,6 +1,7 @@
 import About from '../components/about/About';
 import Hero from '../components/homepage/Hero';
 import HoursLocation from '../components/homepage/HoursLocation';
+import CallToOrder from '../components/utils/CallToOrder';
 import NavLink from '../components/utils/NavLink';
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
 			<div>
 				<Hero />
 			</div>
-			<div className=''>
+			<div>
 				<About />
 			</div>
 			
