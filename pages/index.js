@@ -14,13 +14,17 @@ const Home = () => {
 			<div>
 				<About />
 			</div>
-			<div className="bg-black">
-				<Reviews />
+			<div>
+				<h1 className='text-center text-5xl md:text-6xl text-pizzaRed-400 font-logo tracking-wider m-4'>
+					
+				</h1>
+				<div className='bg-black'>
+					<Reviews />
+				</div>
 			</div>
-			<div className="">
+			<div className=''>
 				<HoursLocation />
 			</div>
-			
 		</div>
 	);
 };
