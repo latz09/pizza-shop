@@ -13,13 +13,10 @@ const HoursLocation = () => {
 					<span className='text-pizzaRed-400'>4:30PM - 10PM</span>
 				</div>
 				<div className='grid justify-items-center gap-2'>
-					<span className='text-gray-600 font-logo tracking-wider '>Saturday</span>
+					<span className='text-gray-600 font-logo tracking-wider '>{`Saturday & Sunday`}</span>
 					<span className='text-pizzaRed-400'>4PM - 10PM</span>
 				</div>
-				<div className='grid justify-items-center gap-2'>
-					<span className='text-gray-600 font-logo tracking-wider '>Sunday</span>
-					<span className='text-pizzaRed-400'>4PM - 10PM</span>
-				</div>
+				
 			</div>
 		</>
 	);

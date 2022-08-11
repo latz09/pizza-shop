@@ -1,17 +1,21 @@
 import About from '../components/about/About';
 import Hero from '../components/homepage/Hero';
 import HoursLocation from '../components/homepage/HoursLocation';
+import Reviews from '../components/reviews/Reviews';
 import CallToOrder from '../components/utils/CallToOrder';
 import NavLink from '../components/utils/NavLink';
 
 const Home = () => {
 	return (
-		<div className='grid '>
+		<div className='grid gap-4 '>
 			<div>
 				<Hero />
 			</div>
 			<div>
 				<About />
+			</div>
+			<div className="bg-black">
+				<Reviews />
 			</div>
 			<div className="">
 				<HoursLocation />
