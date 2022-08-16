@@ -18,7 +18,7 @@ const Home = () => {
 				<h1 className='text-center text-5xl md:text-6xl text-pizzaRed-400 font-logo tracking-wider m-4'>
 					
 				</h1>
-				<div className='bg-black'>
+				<div className=''>
 					<Reviews />
 				</div>
 			</div>
