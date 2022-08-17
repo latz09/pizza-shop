@@ -5,7 +5,7 @@ const Reviews = () => {
 	return (
 		<>
 		
-			<div className='max-w-7xl mx-auto grid justify-center gap-4 md:grid-cols-2 md:justify-evenly md:items-center py-4'>
+			<div className='max-w-7xl mx-auto grid gap-4 md:grid-cols-2 md:justify-evenly md:items-center p-4'>
 				{reviews.map((review) => (
 					<div key={review.name} className=''>
 						<ReviewItem name={review.name} text={review.review} />

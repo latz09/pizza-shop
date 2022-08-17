@@ -4,7 +4,7 @@ import Reviews from '../reviews/Reviews';
 
 const ReviewsHero = () => {
 	return (
-		<div className='relative w-[100vw] h-[60vh] mx-auto'>
+		<div className='relative w-[100vw] h-[80vh] md:h-[60vh] mx-auto'>
 			<div className='-z-10'>
 				<Image
 					src={hero}
@@ -15,7 +15,7 @@ const ReviewsHero = () => {
 					priority='true'
 				/>
 			</div>
-			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60 p-4'>
+			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
 				<Reviews />
 			</div>
 		</div>
