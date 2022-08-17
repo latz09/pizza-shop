@@ -4,7 +4,6 @@ import ReviewsHero from '../components/heros/ReviewsHero';
 import Hero from '../components/homepage/Hero';
 import HoursLocation from '../components/homepage/HoursLocation';
 
-
 const Home = () => {
 	return (
 		<div className='grid '>
@@ -14,12 +13,7 @@ const Home = () => {
 
 			<ReviewsHero />
 
-			<div>
-				<h1 className='text-center text-5xl md:text-6xl text-pizzaRed-400 font-logo tracking-wider m-4'></h1>
-			</div>
-			<div className=''>
-				<HoursLocation />
-			</div>
+			<HoursLocation />
 		</div>
 	);
 };
