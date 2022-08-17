@@ -1,7 +1,7 @@
 const MenuToggle = ({ setMenuCategory, menuCategory }) => {
 	return (
 		<>
-			<div className='tracking-tighter md:bg-black grid gap-3 md:grid-cols-4 mt-3 md:mt-0 items-center'>
+			<div className='flex space-x-1'>
 				<div>
 					<button
 						onClick={() => setMenuCategory(1)}

@@ -5,20 +5,20 @@ import Vegi from './Vegi';
 
 const AllSpecials = () => {
 	return (
-		
-			<div className='grid gap-4 p-6'>
-				<MenuHeading title={'Specials'} />
-				<div className='card card-special'>
+		<div className='grid gap-4 p-6'>
+			<MenuHeading title={'Specials'} />
+			<div className="grid gap-2">
+				<div>
 					<Super />
 				</div>
-				<div className='card card-special'>
+				<div>
 					<House />
 				</div>
-				<div className='card card-special'>
+				<div>
 					<Vegi />
 				</div>
 			</div>
-		
+		</div>
 	);
 };
 

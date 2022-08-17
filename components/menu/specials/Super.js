@@ -5,12 +5,12 @@ import SpecialToppingList from './SpecialToppingList';
 
 const Super = () => {
 	return (
-		<>
+		<div>
 			{' '}
 			<SpecialHeading title={'SUPER'} />
             <Crusts small={'$15'} medium={'$17'} large={'$20'}/>
 			<SpecialToppingList toppings={superToppings} />{' '}
-		</>
+		</div>
 	);
 };
 

@@ -13,10 +13,10 @@
 		@apply px-10 py-1 sm:px-20 sm:py-3 bg-pizzaRed-300 text-gray-100 md:text-2xl text-xl font-semibold tracking-wider rounded shadow-md hover:bg-pizzaRed-400 hover:text-white 
 	}
 	.btn-menu-nav {
-		@apply font-bold text-white bg-gray-800 md:bg-black border md:border-0  md:text-gray-200 p-2 sm:px-4 sm:py-2 text-xs sm:text-base md:text-lg lg:text-xl rounded
+		@apply font-bold text-white bg-gray-800 md:bg-black border md:border-0  md:text-gray-200 p-2 sm:px-4 sm:py-2 text-xs sm:text-base md:text-lg lg:text-xl rounded h-full
 	}
 	.btn-menu-focused {
-		@apply scale-110 md:scale-125 border-pizzaRed-300 bg-pizzaRed-400 text-white transition duration-1000 md:font-normal font-bold
+		@apply border-pizzaRed-300 bg-pizzaRed-400 text-white transition duration-1000 md:font-normal font-bold
 	}
 	.menu-section-heading {
 		@apply text-pizzaRed-500 tracking-wider text-4xl sm:text-5xl sm:p-2 

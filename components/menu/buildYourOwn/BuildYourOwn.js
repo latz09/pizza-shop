@@ -7,7 +7,7 @@ import Pricing from './Pricing';
 
 const BuildYourOwn = () => {
 	return ( 
-		<div className='grid gap-4 sm:mt-7 card'>
+		<div className='grid gap-4 sm:mt-7'>
 			<MenuHeading title={'Build Your Own'}/>
 			<MenuSection title={'Toppings'} />
 			<ToppingsList toppings={allToppings} />

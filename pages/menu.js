@@ -5,20 +5,22 @@ import AllSpecials from '../components/menu/specials/AllSpecials';
 
 import { useState } from 'react';
 import MenuToggle from '../components/utils/MenuToggle';
+import MenuHero from '../components/heros/MenuHero';
 
 const MenuPage = () => {
 	const [menuCategory, setMenuCategory] = useState(1);
 
 	return (
-		<div className='pb-8 bg-gray-50 min-h-screen'>
-			<div className='md:pt-14 grid justify-evenly text-center sm:gap-4'>
-				<div className="pb-2">
+		<div className=''>
+			<MenuHero />
+			<div className='grid justify-evenly text-center'>
+				<div className='py-8 px-1'>
 					<MenuToggle
 						menuCategory={menuCategory}
 						setMenuCategory={setMenuCategory}
 					/>
 				</div>
-				<div >
+				<div>
 					{menuCategory === 1 && <BuildYourOwn />}
 					{menuCategory === 2 && <PizzaFries />}
 					{menuCategory === 3 && <AllSpecials />}
@@ -31,11 +33,3 @@ const MenuPage = () => {
 
 export default MenuPage;
 
-/**
- * usestate set the state of what is being displayed
- *
- * Need a component that has each tab
- * 	onclick it will set the state s1 || s2 || s3 || s4
- * each component renders conditonally {state === s1 && <BuildYourOwn/>}
- *
- */
