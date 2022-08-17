@@ -2,7 +2,7 @@ import { AiFillStar } from 'react-icons/ai';
 
 const ReviewItem = ({ name, text }) => {
 	return (
-		<div className='grid gap-2 text-gray-50 tracking-wide   bg-pizzaRed-500 bg-opacity-90 p-4 shadow shadow-pizzaRed-400 '>
+		<div className='grid gap-2 text-white '>
 			<h1 className='font-bold text-xl text-white'>{name}</h1>
 			<span className='text-yellow-400 flex space-x-2 md:text-base'>
 				<AiFillStar />

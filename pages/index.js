@@ -1,26 +1,21 @@
 import About from '../components/about/About';
+import FrozenPizzaAdd from '../components/frozen/FrozenPizzaAd';
+import ReviewsHero from '../components/heros/ReviewsHero';
 import Hero from '../components/homepage/Hero';
 import HoursLocation from '../components/homepage/HoursLocation';
-import Reviews from '../components/reviews/Reviews';
-import CallToOrder from '../components/utils/CallToOrder';
-import NavLink from '../components/utils/NavLink';
+
 
 const Home = () => {
 	return (
-		<div className='grid gap-4 '>
+		<div className='grid '>
+			<Hero />
+
+			<About />
+
+			<ReviewsHero />
+
 			<div>
-				<Hero />
-			</div>
-			<div>
-				<About />
-			</div>
-			<div>
-				<h1 className='text-center text-5xl md:text-6xl text-pizzaRed-400 font-logo tracking-wider m-4'>
-					
-				</h1>
-				<div className=''>
-					<Reviews />
-				</div>
+				<h1 className='text-center text-5xl md:text-6xl text-pizzaRed-400 font-logo tracking-wider m-4'></h1>
 			</div>
 			<div className=''>
 				<HoursLocation />
