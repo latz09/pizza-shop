@@ -3,7 +3,7 @@ import hero from '../../public/images/pizza.jpg'
 
 
 const MenuHero = () => {
-    return ( <div className='relative w-[100vw] h-[50vh]'>
+    return ( <div className='relative w-[100vw] h-[30vh] lg:h-[50vh]'>
     <div className='-z-10'>
         <Image
             src={hero}
