@@ -11,7 +11,7 @@ const ReviewsHero = () => {
 					alt=''
 					layout='fill'
 					objectFit='cover'
-					objectPosition='center'
+					objectPosition='left'
 					priority='true'
 				/>
 			</div>
