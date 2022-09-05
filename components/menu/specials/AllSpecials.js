@@ -19,7 +19,7 @@ const AllSpecials = () => {
 				</div>
 			</div>
 		</div>
-	);
+);
 };
 
 export default AllSpecials;
