@@ -5,7 +5,7 @@ import Vegi from './Vegi';
 
 const AllSpecials = () => {
 	return (
-		<div className='grid gap-4 p-6'>
+		<div className='grid gap-4 mt-7'>
 			<MenuHeading title={'Specials'} />
 			<div className="grid gap-2">
 				<div>

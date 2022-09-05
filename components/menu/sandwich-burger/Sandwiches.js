@@ -4,7 +4,7 @@ import PizzaSandwich from './PizzaSandwich';
 
 const Sandwiches = () => {
 	return (
-		<div className="grid gap-12  md:flex md:justify-between md:items-center mt-8">
+		<div className="grid gap-12  md:flex md:justify-between md:items-center mt-7">
 			<div>
 				<MenuHeading title={'Cheese Burger'} />
 				<Burger />
