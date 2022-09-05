@@ -12,14 +12,8 @@ const MenuPage = () => {
 
 	return (
 		<div className=''>
-			<MenuHero />
+			<MenuHero menuCategory={menuCategory} setMenuCategory={setMenuCategory} />
 			<div className='grid justify-evenly text-center'>
-				<div className='py-8 px-1'>
-					<MenuToggle
-						menuCategory={menuCategory}
-						setMenuCategory={setMenuCategory}
-					/>
-				</div>
 				<div>
 					{menuCategory === 1 && <BuildYourOwn />}
 					{menuCategory === 2 && <PizzaFries />}
@@ -32,4 +26,3 @@ const MenuPage = () => {
 };
 
 export default MenuPage;
-
