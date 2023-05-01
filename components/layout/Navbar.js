@@ -20,7 +20,7 @@ const Navbar = () => {
 					<span className='text-secondary'>
 						<BsFillTelephoneFill />{' '}
 					</span>
-					<span>{`(651) 457-0777`}</span>
+					<span className="text-xl lg:text-2xl font-semibold">{`(651) 457-0777`}</span>
 				</div>
 			</div>
 		</div>
