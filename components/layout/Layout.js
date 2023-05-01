@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
 				<Navbar />
 			</div>
 			<main className='flex-grow min-h-screen'>{children}</main>
-			<div className="pb-24">
+			<div className="pb-24 border-b-4 lg:border-b-8 border-primary">
 				<HoursLocation />
 			</div>
 		</div>
