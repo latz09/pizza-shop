@@ -9,8 +9,9 @@ const Layout = ({ children }) => {
 				<Navbar />
 			</div>
 			<main className='flex-grow min-h-screen'>{children}</main>
-			<div className="pb-24 border-b-4 lg:border-b-8 border-primary">
+			<div className=" grid gap-4">
 				<HoursLocation />
+				<div className="h-4 bg-primary mt-24 sticky bottom-0 z-50"></div>
 			</div>
 		</div>
 	);
