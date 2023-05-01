@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 import building from '../../public/images/building-at-sunset.png';
 
 const Hero = () => {
@@ -15,25 +16,29 @@ const Hero = () => {
 					priority='true'
 				/>
 			</div>
-			<div className='relative flex justify-center items-center h-full bg-gradient-to-t from-dark/60 via-dark/50 to-dark/0 text-light'>
-				<div className=' grid gap-6'>
-					<h1 className='text-5xl md:text-7xl text-light scale-y-125'>The Pizza Shop</h1>
+			<div className='relative flex justify-center items-center h-full bg-gradient-to-t from-dark/60 via-dark/70 to-dark/10 text-[#FFF7F7]'>
+				<motion.div 
+					initial={{ opacity: 0, scale: .7 }}
+					animate={{ opacity: 1, scale: 1 }}
+					transition={{ duration: 1.5, delay: .9 }}
+				className='grid gap-6'>
+					<h1 className='text-5xl md:text-7xl  scale-y-125'>The Pizza Shop</h1>
 					<div className='grid gap-2 text-xl text-center opacity-95'>
 						
 						<h1 className=' font-light text-4xl md:text-5xl '>
 							West Saint Paul
 						</h1>
-						<p className='font-bold'>1037 Dodd Rd</p>
+						<p className='font-bold tracking-wider'>1037 Dodd Rd</p>
 						{/* <p className=''>{`(651) 457-0777`}</p> */}
 					</div>
-					<div className='grid w-full opacity-90 hover:opacity-100 hover:scale-110 transition duration-700 rounded-sm shadow-lg mx-auto text-center mt-2'>
+					<div className='grid w-1/3   hover:opacity-90 hover:scale-110 transition duration-700 rounded-sm shadow-lg mx-auto text-center mt-2'>
 						<Link href={'/menu'}>
-							<a className=' text-xl  transition duration-700 bg-secondary p-4 uppercase tracking-wider'>
+							<a className=' text-xl  transition duration-700 bg-secondary p-4 font-tinos font-bold uppercase tracking-wider'>
 								Menu
 							</a>
 						</Link>
 					</div>
-				</div>
+				</motion.div>
 			</div>
 		</div>
 	);
