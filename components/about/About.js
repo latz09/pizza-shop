@@ -1,12 +1,10 @@
-import Image from 'next/image';
-
 const About = () => {
 	return (
 		<>
-			<div className='max-w-7xl mx-auto py-32 text-4xl md:text-5xl text-gray-600 font-logo tracking-widest '>
-				<p className='mx-3 text-center'>
+			<div className='max-w-7xl mx-auto px-2 md:px-0 text-2xl md:text-5xl tracking-widest h-[33vh] grid place-items-center o'>
+				<p className=' text-center'>
 					Proudly Serving the City of{' '}
-					<span className='text-pizzaRed-500'> West Saint Paul</span> Since 19##
+					<span className='text-secondary'> West Saint Paul</span> Since 19##
 				</p>
 			</div>
 		</>

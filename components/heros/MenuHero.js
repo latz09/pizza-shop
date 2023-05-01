@@ -4,7 +4,7 @@ import MenuToggle from '../utils/MenuToggle';
 
 const MenuHero = ({ menuCategory, setMenuCategory }) => {
 	return (
-		<div className='relative w-[100vw] h-[30vh] lg:h-[50vh]'>
+		<div className='relative  h-[33vh] lg:h-[45vh]'>
 			<div className='-z-10'>
 				<Image
 					src={hero}
@@ -15,13 +15,13 @@ const MenuHero = ({ menuCategory, setMenuCategory }) => {
 					priority='true'
 				/>
 			</div>
-			<div className='relative grid justify-center h-full bg-black bg-opacity-40 '>
-				<div className='grid gap-4 text-center tracking-widest text-gray-200 self-end'>
+			<div className='relative grid justify-center h-full bg-gradient-to-t from-dark via-dark/30 to-dark/0 '>
+				<div className='grid gap-4 text-center tracking-widest self-end'>
 					<h1 className='text-5xl md:text-7xl text-white font-bold tracking-widest'>
-						MENU
+						{/* MENU */}
 					</h1>
 				</div>
-				<div className=' self-end mb-2'>
+				<div className=' self-end mb-2 '>
 					<MenuToggle
 						menuCategory={menuCategory}
 						setMenuCategory={setMenuCategory}

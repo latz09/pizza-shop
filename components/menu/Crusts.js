@@ -1,17 +1,17 @@
 const Crusts = ({ small, medium, large }) => {
 	return (
-		<div className='text-sm sm:text-xl flex space-x-7 justify-center '>
+		<div className=' md:text-xl flex space-x-8 text-primary text-center '>
 			<div className='grid'>
-				<span className='font-bold'>Small</span>
-				<span className='text-pizzaRed-600'>{small}</span>
+				<span className='font-semibold font-questrial tracking-wider text-secondary'>Small</span>
+				<span >{small}</span>
 			</div>
 			<div className='grid'>
-				<span className='font-bold'>Medium</span>
-				<span className='text-pizzaRed-600'>{medium}</span>
+				<span className='font-semibold font-questrial tracking-wider text-secondary'>Medium</span>
+				<span >{medium}</span>
 			</div>
 			<div className='grid'>
-				<span className='font-bold'>Large</span>
-				<span className='text-pizzaRed-600'>{large}</span>
+				<span className='font-semibold font-questrial tracking-wider text-secondary'>Large</span>
+				<span >{large}</span>
 			</div>
 		</div>
 	);

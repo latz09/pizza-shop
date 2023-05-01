@@ -2,7 +2,7 @@ import ToppingItem from './ToppingItem';
 
 const ToppingsList = ({ toppings }) => {
 	return (
-		<ul className='flex flex-wrap space-x-4 text-xs sm:gap-1 sm:text-lg items-center justify-center leading-6 justify-items-center text-pizzaRed-600 p-3 max-w-5xl mx-auto'>
+		<ul className='flex flex-wrap space-x-4 text-xs sm:gap-1 sm:text-lg items-center justify-center  justify-items-center   max-w-5xl mx-auto text-primary'>
 			{toppings.map((topping) => (
 				<ToppingItem key={topping} item={topping} />
 			))}

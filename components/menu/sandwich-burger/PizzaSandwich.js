@@ -1,10 +1,9 @@
-import MenuSection from '../../utils/MenuSection';
 
 const PizzaSandwich = () => {
 	return (
 		<>
 			
-            <span className="text-pizzaRed-600 text-xl md:text-4xl">$7</span>
+            <span className="text-secondary text-xl md:text-4xl pr-2">$7</span>
 		</>
 	);
 };

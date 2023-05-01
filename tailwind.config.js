@@ -5,19 +5,22 @@ module.exports = {
 		'./components/**/*.{js,ts,jsx,tsx}',
 	],
 	theme: {
-		extend: {
-			fontFamily: {
-				logo: ['Mouse Memoirs', 'sans-serif'],
-				base: ['Roboto Mono', 'monospace'],
-			},
-			colors: {
-				pizzaRed: {
-					300: '#E52C06',
-					400: '#CC2705',
-					500: '#CC2705',
-					600: '#991D04',
-				},
-			},
+		extend: {},
+
+		colors: {
+			// primary: '#FF1D46',
+			primary: '#9A1618',
+			secondary: '#588C17',
+			dark: '#450001',
+			light: '#FFE3E3',
+			white: '#FFFFFF',
+			black: '#000000',
+		},
+		fontFamily: {
+			tinos: ['Tinos', 'serif'],
+			mulish: ['Mulish', 'sans-serif'],
+			questrial: ['Questrial', 'sans-serif'],
+			oswald: ['Oswald', 'sans-serif'],
 		},
 	},
 	plugins: [],

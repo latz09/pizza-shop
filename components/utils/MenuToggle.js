@@ -1,7 +1,7 @@
 const MenuToggle = ({ setMenuCategory, menuCategory }) => {
 	return (
 		<>
-			<div className='flex space-x-1'>
+			<div className='flex space-x-1 '>
 				<div>
 					<button
 						onClick={() => setMenuCategory(1)}
