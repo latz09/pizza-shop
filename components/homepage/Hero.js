@@ -4,7 +4,7 @@ import building from '../../public/images/building-at-sunset.png';
 
 const Hero = () => {
 	return (
-		<div className='relative h-[100vh]'>
+		<div className='relative h-[66vh] lg:h-[100vh]'>
 			<div className='-z-10'>
 				<Image
 					src={building}
