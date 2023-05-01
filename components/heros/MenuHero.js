@@ -4,7 +4,7 @@ import MenuToggle from '../utils/MenuToggle';
 
 const MenuHero = ({ menuCategory, setMenuCategory }) => {
 	return (
-		<div className='relative  h-[33vh] lg:h-[45vh]'>
+		<div className='relative  h-[27vh] lg:h-[45vh]'>
 			<div className='-z-10'>
 				<Image
 					src={hero}
