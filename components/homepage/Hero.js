@@ -5,6 +5,7 @@ import building from '../../public/images/building-at-sunset.png';
 
 const Hero = () => {
 	return (
+		<>
 		<div className='relative h-[66vh] lg:h-[100vh]'>
 			<div className='-z-10'>
 				<Image
@@ -16,7 +17,7 @@ const Hero = () => {
 					priority='true'
 				/>
 			</div>
-			<div className='relative flex justify-center items-center h-full bg-gradient-to-t from-dark/60 via-dark/70 to-dark/10 text-[#FFF7F7]'>
+			<div className='relative flex justify-center items-center h-full bg-gradient-to-t from-dark/30 via-dark/70 to-dark/10 text-[#FFF7F7]'>
 				<motion.div 
 					initial={{ opacity: 0, scale: .7 }}
 					animate={{ opacity: 1, scale: 1 }}
@@ -50,6 +51,7 @@ const Hero = () => {
 				</motion.div>
 			</div>
 		</div>
+		</>
 	);
 };
 
