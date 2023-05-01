@@ -7,7 +7,7 @@ import Hero from '../components/homepage/Hero';
 const Home = () => {
 	return (
 		<div className='grid gap-12 md:gap-24 mb-16 '>
-			<div >
+			<div className="mb-12 lg:mb-24" >
 				<Hero />
 				<About />
 			</div>
