@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
 			<main className='flex-grow min-h-screen'>{children}</main>
 			<div className=" grid gap-4">
 				<HoursLocation />
-				<div className="h-4 bg-primary mt-24 sticky bottom-0 z-50"></div>
+				<div className="h-4 bg-primary mt-24 "></div>
 			</div>
 		</div>
 	);
