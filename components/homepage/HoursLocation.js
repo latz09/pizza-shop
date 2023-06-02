@@ -18,7 +18,7 @@ const HoursLocation = () => {
 			</div>
 			<div className="text-center">
 				<Link href={'/menu'}>
-					<a className=' text-2xl bg-secondary py-2 px-6 rounded-sm w-full text-light'>
+				<a className=' text-xl  transition duration-700 bg-secondary px-4 py-3 rounded shadow-lg  font-questrial uppercase tracking-wider text-light'>
 						Menu
 					</a>
 				</Link>
