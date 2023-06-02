@@ -35,7 +35,7 @@ const Hero = () => {
 							transition={{ duration: 1, delay: 1.5 }}
 						>
 							<h1 className='  text-4xl md:text-5xl '>West Saint Paul</h1>
-							<p className='tracking-wider font-questrial'>1037 Dodd Rd</p>
+							<p className='tracking-wider lg:text-2xl'>1037 Dodd Rd</p>
 							{/* <p className=''>{`(651) 457-0777`}</p> */}
 						</motion.div>
 						<motion.div
