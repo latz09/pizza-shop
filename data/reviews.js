@@ -1,7 +1,7 @@
 export const reviews = [
     {
         name: 'Terry C',
-        review: 'Best Pizza Ever!  I have been eating this pizza sine 1975 when Mr. D Pizza was open in Apple Valley.  Family owned, quality ingredients.',
+        review: 'Best Pizza Ever!  I have been eating this pizza since 1975 when Mr. D Pizza was open in Apple Valley.  Family owned, quality ingredients.',
         stars: 5
     },
     {
