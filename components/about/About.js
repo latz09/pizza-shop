@@ -1,6 +1,6 @@
 const About = () => {
 	return (
-		<div className=' text-primary  px-2 md:px-0 text-2xl md:text-5xl tracking-widest h-[20vh] grid place-items-center  font-oswald '>
+		<div className=' text-primary  px-2 md:px-0 text-2xl md:text-5xl tracking-widest h-[25vh] grid place-items-center  font-oswald '>
 			<p className=' max-w-4xl mx-auto text-center'>
 				Proudly Serving the City of{' '}
 				<span className='text-secondary '> West Saint Paul</span> Since
