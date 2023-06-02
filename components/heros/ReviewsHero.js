@@ -13,7 +13,7 @@ const ReviewsHero = () => {
 				<Image
 					src={hero}
 					alt='hero'
-					className='grid place-items-center  shadow-lg  lg:rotate-2'
+					className='grid place-items-center  shadow-lg '
 				/>
 			</div>
 			
