@@ -23,7 +23,7 @@ const MenuPage = () => {
 
 	return (
 		<div className=''>
-			<div className="sticky top-[10vh] z-50 sm:relative sm:top-0">
+			<div className="sticky top-[10vh] z-20 sm:relative sm:top-0 shadow-md">
 				<MenuHero
 					menuCategory={menuCategory}
 					setMenuCategory={setMenuCategory}
