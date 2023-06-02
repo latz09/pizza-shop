@@ -3,30 +3,45 @@ import img2 from '../../public/images/cars-outside.webp';
 import img3 from '../../public/images/old-vehicle.jpg';
 import img4 from '../../public/images/frozen-pizza.jpg';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const Gallery = () => {
 	return (
-		<div className='grid lg:grid-cols-2 max-w-7xl mx-auto gap-4 py-16 place-items-center'>
-			<div className='flex flex-col gap-16 justify-between place-items-center'>
-				<div className='gallery-img'>
-					<Image src={img3} alt='' />
-				</div>
-				<div className='gallery-img '>
-					<Image src={img1} alt='' />
-				</div>
-			</div>
-			<div
-				className='flex flex-col gap-8 
-             justify-between place-items-center'
+		<div className='grid lg:grid-cols-2 max-w-7xl mx-auto gap-16 py-16 place-items-center'>
+			<motion.div
+				initial={{ scale: 1 }}
+				animate={{ scale: 1.12 }}
+				transition={{ duration: 1.5, repeat: Infinity, repeatType: 'reverse' }}
+				className=' gallery-img'
 			>
-				{/* <div className=" h-full w-full grid place-items-center">blurb</div> */}
-				<div className='gallery-img  '>
-					<Image src={img4} alt='' />
-				</div>
-				<div className=' gallery-img'>
-					<Image src={img2} alt='' />
-				</div>
-			</div>
+				<Image src={img3} alt='' />
+			</motion.div>
+			<motion.div
+				initial={{ scale: 1 }}
+				animate={{ scale: 1.12 }}
+				transition={{ duration: 1.5, repeat: Infinity, repeatType: 'reverse' }}
+				className=' gallery-img'
+			>
+				<Image src={img1} alt='' />
+			</motion.div>
+
+			<motion.div
+				initial={{ scale: 1 }}
+				animate={{ scale: 1.12 }}
+				transition={{ duration: 1, repeat: Infinity, repeatType: 'reverse' }}
+				className=' gallery-img'
+			>
+				<Image src={img4} alt='' />
+			</motion.div>
+
+			<motion.div
+				initial={{ scale: 1 }}
+				animate={{ scale: 1.12 }}
+				transition={{ duration: 1.5, repeat: Infinity, repeatType: 'reverse' }}
+				className=' gallery-img'
+			>
+				<Image src={img2} alt='' />
+			</motion.div>
 		</div>
 	);
 };

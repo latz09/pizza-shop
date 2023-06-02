@@ -3,13 +3,11 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import building from '../../public/images/building-at-sunset.png';
 
-
 const Hero = () => {
 	return (
 		<>
 			<div className='relative h-[66vh] lg:h-[66vh]'>
 				<div className='-z-10'>
-					
 					<Image
 						src={building}
 						alt=''
@@ -18,7 +16,6 @@ const Hero = () => {
 						objectPosition='center'
 						priority={true}
 						quality={100}
-						
 					/>
 				</div>
 				<div className='relative font-oswald flex justify-center items-center h-full bg-gradient-to-t from-dark/0 via-dark/60 to-dark/0 text-[#FFF7F7] '>
