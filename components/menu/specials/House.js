@@ -8,7 +8,7 @@ const House = () => {
 		<div className='grid gap-4'>
 			{' '}
 			<SpecialHeading title={'HOUSE'} />
-			<div className='mx-2 grid gap-1 text-primary'>
+			<div className='mx-2 grid gap-4 text-primary'>
 				<Crusts small={'$13'} medium={'$15'} large={'$19'} />
 				<SpecialToppingList toppings={houseToppings} />{' '}
 			</div>

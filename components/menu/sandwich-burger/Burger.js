@@ -3,7 +3,7 @@ import Crusts from '../Crusts';
 
 const Burger = () => {
 	return (
-		<div className="grid gap-2">
+		<div className="grid gap-4 place-items-center ">
 			
 			<ul className='flex space-x-2  text-primary'>
 				<li>Beef</li>

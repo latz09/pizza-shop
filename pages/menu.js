@@ -29,7 +29,7 @@ const MenuPage = () => {
 					setMenuCategory={setMenuCategory}
 				/>
 			</div>
-			<div className='pb-24 mt-8'>
+			<div className='pb-24 mt-8 font-oswald tracking-wider'>
 				<div className=''>
 					<AnimatePresence mode='wait'>
 						{menuCategory === 1 && (
